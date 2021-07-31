@@ -14,9 +14,8 @@ It enable user to create an account with their E-mail and other required fields.
   
  ## What if You Forget Your Password ?  
   I have consider that also , what user have to do is just provide regitered E-mail ID then he/she will be having password reset link on same email.
-  
-    ![Reset Password Page Snapshot](https://github.com/gulamansari57181/Pen-Paper-Coder-Android-APP-/blob/main/Screenshots/forget-password.jpg)
-    
+  ![Screenshots](forget-password.jpg)
+   
  ## Main Page
   User can take snapshot of code.
   Edit the code because currently the Accuracy of the OCR is not excellent.
