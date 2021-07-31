@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="16sp"
+    tools:context=".SignupActivity">
+
+
+    <ProgressBar
+        android:id="@+id/signUp_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="100dp"
+        android:background="@drawable/applogo"
+        android:contentDescription="@string/app_logo" />
+
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/hint_color"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:id="@+id/edit_txt_Fullname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg"
+            android:drawableStart="@drawable/ic_person_24"
+            android:drawablePadding="12dp"
+            android:hint="Full Name"
+            android:inputType="textWebEmailAddress"
+            android:textColor="@color/white"
+            android:textColorHint="@color/theme_color"
+            android:textSize="16sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/hint_color">
+
+        <EditText
+            android:id="@+id/edit_txt_Username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg"
+            android:drawableStart="@drawable/ic_person_24"
+            android:drawablePadding="12dp"
+            android:hint="User Name"
+            android:inputType="textWebEmailAddress"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColorHint="@color/hint_color">
+
+        <EditText
+            android:id="@+id/edit_txt_Email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="12dp"
+            android:hint="Email"
+            android:inputType="textWebEmailAddress"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:autofillHints="xyx123@gmail.com" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/hint_color"
+        app:endIconMode="password_toggle"
+        app:endIconTint="@color/white"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/edit_txt_Pass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg"
+            android:drawableStart="@drawable/ic_lock_24"
+            android:drawablePadding="12dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/hint_color"
+        app:endIconMode="password_toggle"
+        android:hint="Re-Enter Password"
+        app:endIconTint="@color/white"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/edit_txt_CoPass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg"
+
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:drawableStart="@drawable/ic_lock_24"
+            android:drawablePadding="12dp"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/btn_design"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_view_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Already have an account.\nLogin Here"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif-monospace"
+        android:textSize="18sp" />
+</LinearLayout>
+</ScrollView>

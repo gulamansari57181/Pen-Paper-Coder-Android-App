@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "951810061894",
+    "project_id": "pen-paper-coder",
+    "storage_bucket": "pen-paper-coder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951810061894:android:6424feab864ad53390fc47",
+        "android_client_info": {
+          "package_name": "com.example.penpapercoder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951810061894-llnvgl8c1imtp6k5m0fiseh9c61smlhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYm0UJzfo9Mkm3WqnCTNGGBWCPnpmtsd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951810061894-llnvgl8c1imtp6k5m0fiseh9c61smlhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
