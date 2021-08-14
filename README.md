@@ -35,6 +35,14 @@ It enable user to create an account with their E-mail and other required fields.
   
   ## Final Generated PDF
  ![PDF Generated ](https://github.com/gulamansari57181/Pen-Paper-Coder-Android-APP-/blob/main/Screenshots/pdf-demo.jpg)
+ 
+ ## Technology Stack and requirement
+ Programming Language : Java
+ JDK: 15.0.2
+ Code Editor : Android Studio
+ Android Version : 5.1 lollipop
+ API : jdoodle
+ OCR : Tesseract & google handwriting ocr
   
   ## Improvemt Scope
   Accuracy of OCR can be improved to have better User Experience.
