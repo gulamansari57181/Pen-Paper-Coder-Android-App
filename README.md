@@ -1,5 +1,5 @@
 ## Pen-Paper-Coder-Android-APP
-It as an Android application which allows user to take snapshot of his/her handwritten code on paper. And Compile and execute it directly.
+It is an Android application which allows user to take snapshot of his/her handwritten code on paper. And Compile and execute it directly.
 It shows an error if there is any. Finally User Can Generate PDF of code with input and output.
 
 ## Login Page 
